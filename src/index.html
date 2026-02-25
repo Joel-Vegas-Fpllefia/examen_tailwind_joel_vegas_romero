@@ -1,0 +1,326 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="py-[10.5px] px-4 md:py-10 md:px-27 flex justify-between items-center"
+      >
+        <div>
+          <img src="../img/Logo & search box.svg" alt="" />
+        </div>
+        <!-- DESKTOP -->
+        <div class="hidden md:block">
+          <ul class="flex gap-6 items-center">
+            <li class="flex gap-2 items-center">
+              <img src="../img/call.svg" alt="" />
+              <a>Contact us</a>
+            </li>
+            <li class="flex gap-2 items-center">
+              <img src="../img/ticket.svg" alt="" />
+              <a>Tickets</a>
+            </li>
+            <li class="flex gap-2 items-center">
+              <img src="../img/document.svg" alt="" />
+              <a>Blogs</a>
+            </li>
+            <li
+              class="flex gap-2 items-center border-2 py-[18.5px] px-4 rounded-3xl"
+            >
+              <a>En</a>
+              <img src="../img/arrow-down.svg" alt="" />
+            </li>
+            <li
+              class="px-[19.5px] py-4 flex gap-2 items-center bg-[#4651C9] rounded-xl"
+            >
+              <img src="../img/user.svg" alt="" />
+              <a class="text-white font-bold">Login</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- MOBIL -->
+        <div class="block md:hidden">
+          <ul class="flex gap-4 items-center">
+            <li>
+              <img src="../img/profile-circle.svg" alt="" />
+            </li>
+            <li>
+              <img src="../img/menu.svg" alt="" />
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="">
+        <!-- mobile -->
+        <div
+          class="block md:hidden relative mx-4 my-4 overflow-hidden rounded-3xl"
+        >
+          <img src="../img/Banner_photo.svg" class="w-full h-full" alt="" />
+          <div class="absolute top-90 px-4">
+            <p class="font-bold text-xl">Beyoncé Live in Concert!</p>
+            <p class="text-lg text-[#515162]">A Night to Remember!</p>
+          </div>
+        </div>
+
+        <!-- Desktop -->
+        <div class="hidden md:flex md:block">
+          <div class="mt-24 pl-27">
+            <p class="text-[44px] font-black mr-[71px]">
+              Beyoncé Live in Concert!
+            </p>
+            <p class="mt-4 mr-[99px] text-[32px] font-bold text-[#515162]">
+              A Night to Remember!
+            </p>
+            <p class="mt-4 mr-[99px] max-w-[501px] text-lg text-[#65657A]">
+              Get ready for an extraordinary night with Beyoncé with
+              breathtaking performances and unforgettable moments. Don’t wait –
+              secure your tickets
+            </p>
+            <div
+              class="mt-17 bg-[#FF0082] w-[196px] h-16 flex justify-center items-center rounded-xl"
+            >
+              <a href="#" class="text-[#FFFFFF] text-xl hover:cursor-pointer"
+                >Get Ticket</a
+              >
+            </div>
+          </div>
+          <div class="w-[624px] h-[705px] z-50 ml-[101px]">
+            <img src="../img/Banner photo.svg" class="h-full w-full" alt="" />
+          </div>
+        </div>
+
+        <div class="bg-[#3D3D49] z-0 mt-[-80px] md:mt-[-140px] md:pl-[108px]">
+          <p class="hidden md:block text-[#C1C1CA] pt-8 text-xl">
+            Find your favorite concert
+          </p>
+          <div
+            class="bg-[#65657A] rounded-xl pt-[69px] md:pt-0 md:mt-4 px-4 flex items-center gap-3 md:max-w-[532px] h-[60px]"
+          >
+            <img src="../img/1/search-normal.svg" alt="" />
+            <p class="text-[#E0E0E4]">Search by Artist, Event or Venue</p>
+          </div>
+          <div class="flex gap-2 pt-3 md:pt-4">
+            <div class="bg-[#65657A] flex items-center rounded-xl py-2 px-3">
+              <p class="text-[#E0E0E4]">#Summer</p>
+            </div>
+            <div class="bg-[#65657A] flex items-center rounded-xl py-2 px-3">
+              <p class="text-[#E0E0E4]">#jazz</p>
+            </div>
+            <div class="bg-[#65657A] flex items-center rounded-xl py-2 px-3">
+              <p class="text-[#E0E0E4]">#taylorSwift</p>
+            </div>
+            <div
+              class="hidden md:block bg-[#65657A] flex items-center rounded-xl py-2 px-3"
+            >
+              <p class="text-[#E0E0E4]">#NewYork</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Upcoming concerts -->
+      <div class="mt-3 md:mt-12">
+        <div class="flex justify-between px-4 md:px-[108px]">
+          <p class="text-lg md:text-[26px]">Upcoming concerts</p>
+          <a href="#" class="text-sm md:text-xl">See All</a>
+        </div>
+        <!-- CANTANTES -->
+        <div class="flex gap-20 md:px-[108px] overflow-hidden pt-12">
+          <!-- CANTANTE -->
+          <div
+            class="border-2 border-zinc-100 rounded-3xl min-h-[258px] min-w-[242px] md:min-w-[288px] md:h-[389px]"
+          >
+            <div class="shadow-xl/30 rounded-2xl overflow-hidden">
+              <img
+                src="../img/sing/Frame 427319938.svg"
+                class="w-full h-full"
+                alt=""
+              />
+            </div>
+            <div
+              class="inset-shadow-indigo-500 text-center flex flex-col gap-2 py-3"
+            >
+              <p class="text-base md:text-xl">Taylor Swift</p>
+              <p class="text-sm md:text-base">San Diego</p>
+              <p class="text-sm md:text-base">Dec 14, 2024</p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!-- CANTANTE -->
+          <div
+            class="border-2 border-zinc-100 rounded-3xl min-h-[258px] min-w-[242px] md:min-w-[288px] md:h-[389px]"
+          >
+            <div class="shadow-xl/30 rounded-2xl overflow-hidden">
+              <img src="../img/sing/2ç.svg" class="w-full h-full" alt="" />
+            </div>
+            <div
+              class="inset-shadow-indigo-500 text-center flex flex-col gap-2 py-3"
+            >
+              <p class="text-base md:text-xl">Celine Dion</p>
+              <p class="text-sm md:text-base">New York City</p>
+              <p class="text-sm md:text-base">Dec 13, 21:00</p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!-- CANTANTE -->
+          <div
+            class="border-2 border-zinc-100 rounded-3xl min-h-[258px] min-w-[242px] md:min-w-[288px] md:h-[389px]"
+          >
+            <div class="shadow-xl/30 rounded-2xl overflow-hidden">
+              <img src="../img/sing/3.svg" class="w-full h-full" alt="" />
+            </div>
+            <div
+              class="inset-shadow-indigo-500 text-center flex flex-col gap-2 py-3"
+            >
+              <p class="text-base md:text-xl">Justin Bieber</p>
+              <p class="text-sm md:text-base">San Francisco</p>
+              <p class="text-sm md:text-base">Dec 16, 20:00</p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!-- CANTANTE -->
+          <div
+            class="border-2 border-zinc-100 rounded-3xl min-h-[258px] min-w-[242px] md:min-w-[288px] md:h-[389px]"
+          >
+            <div class="shadow-xl/30 rounded-2xl overflow-hidden">
+              <img src="../img/sing/4.svg" class="w-full h-full" alt="" />
+            </div>
+            <div
+              class="inset-shadow-indigo-500 text-center flex flex-col gap-2 py-3"
+            >
+              <p class="text-base md:text-xl">Sila Gencoglu</p>
+              <p class="text-sm md:text-base">Boston</p>
+              <p class="text-sm md:text-base">Dec 18, 22:00</p>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+      <!--  -->
+
+      <!-- Popular near you -->
+      <div class="mt-3 md:mt-12">
+        <div class="flex justify-between px-4 md:px-[108px]">
+          <p class="text-lg md:text-[26px]">Popular near you</p>
+          <a href="#" class="text-sm md:text-xl">See All</a>
+        </div>
+        <!-- CANTANTES -->
+        <div class="flex gap-20 md:px-[108px] overflow-hidden pt-12">
+          <!-- CANTANTE -->
+          <div
+            class="border-2 border-zinc-100 rounded-3xl min-h-[258px] min-w-[242px] md:min-w-[288px] md:h-[389px]"
+          >
+            <div class="shadow-xl/30 rounded-2xl overflow-hidden">
+              <img
+                src="../img/Popular near you/1.svg"
+                class="w-full h-full"
+                alt=""
+              />
+            </div>
+            <div
+              class="inset-shadow-indigo-500 text-center flex flex-col gap-2 py-3"
+            >
+              <p class="text-base md:text-xl">Jennifer Lopez</p>
+              <p class="text-sm md:text-base">Seattle</p>
+              <p class="text-sm md:text-base">Dec 12, 21:00</p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!-- CANTANTE -->
+          <div
+            class="border-2 border-zinc-100 rounded-3xl min-h-[258px] min-w-[242px] md:min-w-[288px] md:h-[389px]"
+          >
+            <div class="shadow-xl/30 rounded-2xl overflow-hidden">
+              <img
+                src="../img/Popular near you/2.svg"
+                class="w-full h-full"
+                alt=""
+              />
+            </div>
+            <div
+              class="inset-shadow-indigo-500 text-center flex flex-col gap-2 py-3"
+            >
+              <p class="text-base md:text-xl">Zach Bryan</p>
+              <p class="text-sm md:text-base">Miami</p>
+              <p class="text-sm md:text-base">Dec 08, 22:00</p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!-- CANTANTE -->
+          <div
+            class="border-2 border-zinc-100 rounded-3xl min-h-[258px] min-w-[242px] md:min-w-[288px] md:h-[389px]"
+          >
+            <div class="shadow-xl/30 rounded-2xl overflow-hidden">
+              <img
+                src="../img/Popular near you/3.svg"
+                class="w-full h-full"
+                alt=""
+              />
+            </div>
+            <div
+              class="inset-shadow-indigo-500 text-center flex flex-col gap-2 py-3"
+            >
+              <p class="text-base md:text-xl">Usher</p>
+              <p class="text-sm md:text-base">Los Angeles</p>
+              <p class="text-sm md:text-base">Dec 04, 21:00</p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!-- CANTANTE -->
+          <div
+            class="border-2 border-zinc-100 rounded-3xl min-h-[258px] min-w-[242px] md:min-w-[288px] md:h-[389px]"
+          >
+            <div class="shadow-xl/30 rounded-2xl overflow-hidden">
+              <img
+                src="../img/Popular near you/4.svg"
+                class="w-full h-full"
+                alt=""
+              />
+            </div>
+            <div
+              class="inset-shadow-indigo-500 text-center flex flex-col gap-2 py-3"
+            >
+              <p class="text-base md:text-xl">Adele</p>
+              <p class="text-sm md:text-base">Las Vegas</p>
+              <p class="text-sm md:text-base">Dec 03, 20:00</p>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+      <!--  -->
+
+      <!-- Explore by category -->
+      <div class="pt-6 md:pt-11 px-4 md:px-[108px]">
+        <p class="text-lg md:text-[26px]">Explore by category</p>
+        <div class="pt-4 md:pt-6">
+          <!-- Categoria -->
+          <div
+            class="rounded-xl overflow-hidden flex flex-col items-center bg-auto justify-end bg-[url(../img/Explore_by_category/1.svg)] bg-no-repeat min-w-[156px] min-h-[136px] md:max-w-[231px] md:min-h-[200px]"
+          >
+            <div
+              class="bg-[#3D3D4980] w-full flex px-6 md:px-[90px] md:py-[14px]"
+            >
+              <p class="text-[#FFFFFF] text-lg md:text-[26px]">Folk</p>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
